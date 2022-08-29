@@ -1,16 +1,17 @@
+<!DOCTYPE HTML>
 <!--  // ~ BOOKMARK ~
   Twenty by HTML5 UP
   html5up.net | @ajlkn
   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-
+<html>
 
 <head>  <!-- ~ BOOKMARK ~ -->
   <title>Linear Algebra 2021 Fall</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="css/main.css" />
-  <link rel="stylesheet" href="css/2022_mystyle.css" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <link rel="stylesheet" href="2021_materials/2021_mystyle.css?version=54" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="shortcut icon" href="../favicon.ico" />
   <link rel="bookmark" href="../favicon.ico" />
@@ -33,40 +34,40 @@
                   <li class="submenu">
                     <a href="#">Machine Learning</a>
                     <ul>
-                      <li><a href="https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php">2022 Spring</a></li>
-                      <li><a href="https://speech.ee.ntu.edu.tw/~hylee/ml/2021-spring.php">2021 Spring</a></li>
-                      <li><a href="https://speech.ee.ntu.edu.tw/~hylee/ml/2020-spring.php">2020 Spring</a></li>
-                      <li><a href="https://speech.ee.ntu.edu.tw/~hylee/ml/2019-spring.php">2019 Spring</a></li>
-                      <li><a href="https://speech.ee.ntu.edu.tw/~hylee/ml/2017-fall.php">2017 Fall</a></li>
-                      <li><a href="https://speech.ee.ntu.edu.tw/~hylee/ml/2017-spring.php">2017 Spring</a></li>
-                      <li><a href="https://speech.ee.ntu.edu.tw/~hylee/ml/2016-fall.php">2016 Fall</a></li>
+                      <li><a href="/~hylee/ml/2022-spring.php">2022 Spring</a></li>
+                      <li><a href="/~hylee/ml/2021-spring.php">2021 Spring</a></li>
+                      <li><a href="/~hylee/ml/2020-spring.php">2020 Spring</a></li>
+                      <li><a href="/~hylee/ml/2019-spring.php">2019 Spring</a></li>
+                      <li><a href="/~hylee/ml/2017-fall.php">2017 Fall</a></li>
+                      <li><a href="/~hylee/ml/2017-spring.php">2017 Spring</a></li>
+                      <li><a href="/~hylee/ml/2016-fall.php">2016 Fall</a></li>
                     </ul>
                   </li>
                   <li class="submenu">
                     <a href=#>DLHLP</a>
                     <ul>
-                      <li><a href="https://speech.ee.ntu.edu.tw//~hylee/dlhlp/2020-spring.php">2020 Spring</a></li>
+                      <li><a href="/~hylee/dlhlp/2020-spring.php">2020 Spring</a></li>
                     </ul>
                   </li>
                   <li class="submenu">
                     <a href="#">MLDS</a>
                     <ul>
-                      <li><a href="https://speech.ee.ntu.edu.tw/~hylee/mlds/2018-spring.php">2018 Spring</a></li>
-                      <li><a href="https://speech.ee.ntu.edu.tw/~hylee/mlds/2017-spring.php">2017 Spring</a></li>
-                      <li><a href="https://speech.ee.ntu.edu.tw/~hylee/mlds/2015-fall.php">2015 Fall</a></li>
+                      <li><a href="/~hylee/mlds/2018-spring.php">2018 Spring</a></li>
+                      <li><a href="/~hylee/mlds/2017-spring.php">2017 Spring</a></li>
+                      <li><a href="/~hylee/mlds/2015-fall.php">2015 Fall</a></li>
                     </ul>
                   </li>
                   <li class="submenu">
                     <a href="#">Linear Algebra</a>
                     <ul>
-                      <li><a href="https://speech.ee.ntu.edu.tw/~hylee/la/2021-fall.php">2021 Fall</a></li>
+                      <li><a href="/~hylee/la/2021-fall.php">2021 Fall</a></li>
                       <li><a href="http://speech.ee.ntu.edu.tw/~tlkagk/courses/LA_2020/policy.pdf" target="_blank" rel="noreferrer noopener">2020 Fall</a></li>
-                      <li><a href="https://speech.ee.ntu.edu.tw/~hylee/la/2019-fall.php">2019 Fall</a></li>
-                      <li><a href="https://speech.ee.ntu.edu.tw/~hylee/la/2018-fall.php">2018 Fall</a></li>
-                      <li><a href="https://speech.ee.ntu.edu.tw/~hylee/la/2016-spring.php">2016 Spring</a></li>
+                      <li><a href="/~hylee/la/2019-fall.php">2019 Fall</a></li>
+                      <li><a href="/~hylee/la/2018-fall.php">2018 Fall</a></li>
+                      <li><a href="/~hylee/la/2016-spring.php">2016 Spring</a></li>
                     </ul>
                   </li>
-                  <li><a href="https://speech.ee.ntu.edu.tw/~hylee/circuit/2014-fall.php">Circuit</a></li>
+                  <li><a href="/~hylee/circuit/2014-fall.php">Circuit</a></li>
                 </ul>
               </li>
               <li class="menu"><a href="https://www.youtube.com/channel/UC2ggjtuuWvxrHHHiaDH1dlQ/playlists" target="_blank" rel="noopener noreferrer">Youtube</a></li>        </ul>
@@ -80,7 +81,7 @@
       <header class="special container">  <!-- ~ BOOKMARK ~ -->
           <span class="icon solid fa-shapes"></span>
 
-          <h2 id="top_pointer">Linear Algebra 2022 Fall</h2>
+          <h2 id="top_pointer">Linear Algebra 2021 Fall</h2>
           <br />
           <br />
           
@@ -4362,4 +4363,4 @@
 
 </body>
 
-
+</html>
