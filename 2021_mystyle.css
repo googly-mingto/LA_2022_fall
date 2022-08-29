@@ -1,0 +1,282 @@
+th.ytb_link,
+td.ytb_link,
+td.textbook,
+td.attrname,
+th.playdate,
+td.playdate {
+    text-align: center;
+}
+
+tr > th.pdf_link,
+tr > th.ppt_link
+{
+    /* text-align: center; */
+    padding-left: 30px;
+}
+
+.bigchptname {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+th.nodename.nodenamecol {
+    text-align: center;
+}
+
+tr.chap_row {
+    background-color: rgba(192, 192, 0, 0.5);
+    font-style: italic;
+}
+
+tr.bigchapr {
+    background-color: rgba(191, 255, 0, 0.264);
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+tr.overview>td.nodename,
+tr.overview>td.attrname,
+span.overview,
+div.overview {
+    /* color: rgb(0, 69, 139); */
+    color: initial;
+    font-weight: bold;
+}
+
+
+
+tr.basic-concept>td.nodename,
+tr.basic-concept>td.attrname,
+span.basic-concept,
+div.basic-concept {
+    /* color: rgb(0, 34, 255); */
+    color: blue;
+    /* color: initial; */
+    font-weight: 600;
+}
+
+tr.example>td.nodename,
+tr.example>td.attrname,
+span.example,
+div.example {
+    /* color: rgba(45, 149, 45, 0.747); */
+    color: initial;
+}
+
+tr.optional>td.nodename,
+tr.optional>td.attrname,
+span.optional,
+div.optional {
+    /* color: rgba(128, 128, 128, 0.685); */
+    /* color: initial; */
+    color: gray;
+}
+
+tr.optional>td.nodename > .optional_tag {
+    /* color: rgba(128, 128, 128, 0.685); */
+    /* color: initial; */
+    /* color: gray; */
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+tr.review>td.nodename,
+tr.review>td.attrname,
+span.review,
+div.review {
+    /* color: rgba(62, 62, 157, 0.6); */
+    color: green;
+}
+
+tr.definition>td.nodename,
+tr.definition>td.attrname,
+span.definition,
+div.definition {
+    /* color: rgb(255, 40, 40); */
+    color: red;
+    /* color: initial; */
+    /* font-weight: 600; */
+    font-style: italic;
+    text-decoration: underline;
+}
+
+tr.proof>td.nodename,
+tr.proof>td.attrname,
+span.proof,
+div.proof {
+    /* color: rgba(167, 76, 175, 0.517); */
+    /* text-decoration: dotted underline; */
+    font-style: italic;
+    /* color: darkblue; */
+    color: blue;
+}
+
+tr.theorem>td.nodename,
+tr.theorem>td.attrname,
+span.theorem,
+div.theorem {
+    /* color: purple; */
+    /* color: initial; */
+    text-decoration: underline;
+    font-style: italic;
+    /* color: rgb(0, 72, 255); */
+    color: blue;
+}
+
+tr.homeworkrow>td.nodename,
+span.homeworkrow,
+div.homeworkrow {
+    /* color: purple; */
+    /* color: initial; */
+    /* text-decoration: underline; */
+    font-style: italic;
+    font-weight: bold;
+    /* color: rgb(0, 72, 255); */
+    color: rgb(16, 196, 16);
+    /* background-color: cadetblue; */
+    text-align: center;
+}
+
+
+
+
+tr.chap_row>th.chpt_num {
+    text-align: center;
+    font-weight: bold;
+}
+
+.legend {
+    text-align: center;
+    display: inline
+}
+
+.mobilelegend {
+    display: none;
+}
+
+
+/* For Mobile */
+
+@media screen and (max-width: 540px) {
+    .legend {
+        display: none;
+    }
+    .mobilelegend {
+        display: initial;
+    }
+    .mobilelegend>* {
+        /* text-align: center; */
+        padding-left: 30%;
+    }
+}
+
+th.chptname {
+    padding-left: 40% !important;
+    font-weight: 500;
+}
+
+
+tr > td.symbol {
+    text-align: right;
+}
+
+tr.definition > td.symbol,
+tr.theorem > td.symbol,
+tr.proof > td.symbol
+{
+    font-style: italic;
+}
+
+.legend > p {
+    height: 2em;
+}
+
+
+
+
+/* elements */
+
+/* narrow the height */
+tr.review > td,
+tr.optional > td,
+tr.theorem > td,
+tr.proof > td,
+tr.example > td
+{
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+tr.overview > td,
+tr.basic-concept > td,
+tr.definition > td
+{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+tr.chap_row > th.chptname {
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+/* --- Indent --- */
+/* tr.review > td.nodename, */
+/* tr.optional > td.nodename, */
+/* tr.theorem > td.nodename, */
+tr.proof > td.nodename,
+tr.example > td.nodename {
+    padding-left: 2rem;
+}
+
+
+div.legend span.symbol {
+    /* background-color: yellow; */
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+/* TODO: table style */
+
+
+
+span.grayword {
+    color: gray;
+    font-size: 70%;
+}
+
+
+#main > :last-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+div.alert.alert-warning.part.in-view {
+    margin-bottom: 40px;
+}
+
+
+/* // new feat. background
+tr.playon_Sep22,
+tr.playon_Sep23,
+tr.playon_Sep24,
+tr.playon_Oct06,
+tr.playon_Sep29,
+tr.playon_Oct01,
+tr.playon_Oct13,
+tr.playon_Oct15,
+tr.playon_Oct20,
+tr.playon_Oct22,
+tr.playon_Oct27, 
+tr.playon_Oct29,
+tr.playon_Oct08
+{
+	background-color: #FFFFF0;
+}
+tr.playon_Nov03
+{
+	background-color: #FFC;
+} */
